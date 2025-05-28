@@ -2,6 +2,7 @@
 const {
   Model
 } = require('sequelize');
+const product_category = require('./product_category');
 module.exports = (sequelize, DataTypes) => {
   class Category extends Model {
     /**
