@@ -8,7 +8,4 @@ app.use("/products", require("./routes/products"));
 app.listen(PORT, () => {
 	console.log(`Server listening on http://localhost:${PORT}`);
 }); 
-<<<<<<< HEAD
 //hola caracola
-=======
->>>>>>> parte_trini
