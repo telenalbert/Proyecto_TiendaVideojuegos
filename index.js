@@ -8,3 +8,4 @@ app.listen(PORT, () => {
 	console.log(`Server listening on http://localhost:${PORT}`);
 }); 
 //hola caracola
+console.log("prueba bea");
