@@ -2,6 +2,7 @@
 const {
   Model
 } = require('sequelize');
+const product_order = require('./product_order');
 module.exports = (sequelize, DataTypes) => {
   class Order extends Model {
     /**
@@ -11,6 +12,8 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate(models) {
       // define association here
+      Order.belongsTo(models.User)
+      Order.belongsToMany(models.Product, {through: product_order})
     }
   }
   Order.init({
