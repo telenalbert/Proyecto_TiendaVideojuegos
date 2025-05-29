@@ -1,7 +1,7 @@
   {
   "development": {
     "username": "root",
-    "password": "tucontraseña",
+    "password": "TecnoIT!2025",
     "database": "Base_Videojuegos",
     "host": "127.0.0.1",
     "dialect": "mysql"

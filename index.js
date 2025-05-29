@@ -4,8 +4,10 @@ const PORT    = 3000
 
 app.use(express.json())
 
+app.use("/products", require("./routes/products"));
+app.use('/category', require('./routes/category'));
+
 app.listen(PORT, () => {
 	console.log(`Server listening on http://localhost:${PORT}`);
 }); 
 //hola caracola
-console.log("prueba develop");
